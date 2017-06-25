@@ -9,7 +9,7 @@ ruby "2.4.1"
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'sprockets'
-gem 'bcrypt'
+gem 'bcrypt', '~> 3.1.11', :require => 'bcrypt'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.1'
 # Use Puma as the app server
