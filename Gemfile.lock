@@ -172,6 +172,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  autoprefixer-rails
   boostrap-sass
   byebug
   capybara (~> 2.13)
@@ -183,6 +184,7 @@ DEPENDENCIES
   rails_12factor
   sass-rails (~> 5.0)
   selenium-webdriver
+  sprockets
   sqlite3
   turbolinks (~> 5)
   tzinfo-data
