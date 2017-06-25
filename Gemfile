@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 ruby "2.4.1"
-gem 'boostrap-sass'
+gem 'bootstrap-sass', :git => 'https://github.com/twbs/bootstrap-sass.git', :branch => 'next'
 gem 'autoprefixer-rails'
 gem 'sprockets'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
