@@ -12,6 +12,7 @@ gem 'sprockets'
 gem 'bcrypt', '~> 3.1.11', :require => 'bcrypt'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'rails-controller-testing'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.1'
 # Use Puma as the app server
